@@ -1,0 +1,160 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c4965;
+}
+
+h1 {
+    text-align: center;
+    color: #0077B6;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    background: #0077B6;
+    padding: 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Services Page Styling */
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-item {
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.service-item h2 {
+    color: #0077B6;
+    margin: 10px 0;
+}
+
+.service-item p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Projects Page Styling */
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-item {
+    width: 320px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-item p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* About Us Page Styling */
+.about-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background: #0077B6;
+    color: rgb(39, 85, 171);
+    text-align: center;
+    padding: 70px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+body{font-family:sans-serif;margin:0;padding:0;background:#f5f5f5}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 10px;
+    height: 10px;
+    transition: transform 0.3s;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+}
